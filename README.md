@@ -10,7 +10,7 @@ if (you want to bring IoC pattern and testability into your AutoCAD plugin)
 ## Important Notes
 - All static members of the classes are converted to dynamic members for testing purposes.
 
-## Currently available APIs
+## Currently Available APIs
 | AutoCAD.NET                                    | AutoCAD.NET.Interfaces                                                                                          |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Autodesk.AutoCAD.EditorInput.**Editor**        | Autodesk.AutoCAD.EditorInput.IoC.**IEditor** <br> Autodesk.AutoCAD.EditorInput.IoC.**EditorImpl**               | 
