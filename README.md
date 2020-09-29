@@ -11,7 +11,7 @@ if (you want to bring IoC pattern and testability into your AutoCAD plugin)
 - All static members of the classes are converted to dynamic members for testing purposes.
 
 ## Currently available APIs
-| AutoCAD.NET                                | AutoCAD.NET.Interfaces                          | Implementations                                    |
-|--------------------------------------------|-------------------------------------------------|----------------------------------------------------|
-| Autodesk.AutoCAD.EditorInput.Editor        | Autodesk.AutoCAD.EditorInput.IoC.IEditor        | Autodesk.AutoCAD.EditorInput.IoC.EditorImpl        |
-| Autodesk.AutoCAD.DatabaseServices.Database | Autodesk.AutoCAD.DatabaseServices.IoC.IDatabase | Autodesk.AutoCAD.DatabaseServices.IoC.DatabaseImpl |
+| AutoCAD.NET                                    | AutoCAD.NET.Interfaces                                                                                          |
+|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Autodesk.AutoCAD.EditorInput.**Editor**        | Autodesk.AutoCAD.EditorInput.IoC.**IEditor** <br> Autodesk.AutoCAD.EditorInput.IoC.**EditorImpl**               | 
+| Autodesk.AutoCAD.DatabaseServices.**Database** | Autodesk.AutoCAD.DatabaseServices.IoC.**IDatabase** <br> Autodesk.AutoCAD.DatabaseServices.IoC.**DatabaseImpl** |
