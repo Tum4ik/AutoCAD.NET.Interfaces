@@ -12,6 +12,7 @@ if (you want to bring IoC pattern and testability into your AutoCAD plugin)
 
 ## Installation
 [![NuGet: AutoCAD.NET.Interfaces](https://img.shields.io/badge/NuGet-AutoCAD.NET.Interfaces-004880)](https://www.nuget.org/packages/AutoCAD.NET.Interfaces)
+[![NuGet: Downloads](https://img.shields.io/nuget/dt/AutoCAD.NET.Interfaces?style=social)](https://www.nuget.org/packages/AutoCAD.NET.Interfaces)
 
 ## Important Notes
 - Interfaces and their implementations are generated to follow next patterns:
