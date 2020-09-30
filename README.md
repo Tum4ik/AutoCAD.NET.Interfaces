@@ -14,6 +14,12 @@ if (you want to bring IoC pattern and testability into your AutoCAD plugin)
 [![NuGet: AutoCAD.NET.Interfaces](https://img.shields.io/badge/NuGet-AutoCAD.NET.Interfaces-004880)](https://www.nuget.org/packages/AutoCAD.NET.Interfaces)
 
 ## Important Notes
+- Interfaces and their implementations are generated to follow next patterns:
+    - **namespace:** Autodesk.AutoCAD.{ApiNamespace}.IoC
+    - **interface:** I{ApiType}
+    - **implementation:** {ApiType}Impl
+    
+  So, for example, to get the inteface for the Editor, you should import **I**Editor and Editor**Impl** from the Autodesk.AutoCAD.**EditorInput**.IoC.
 - All static members of the classes are converted to dynamic members for testing purposes.
 
 ## Currently Available APIs
