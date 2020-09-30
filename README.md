@@ -15,11 +15,11 @@ if (you want to bring IoC pattern and testability into your AutoCAD plugin)
 
 ## Important Notes
 - Interfaces and their implementations are generated to follow next patterns:
-    - **namespace:** Autodesk.AutoCAD.{ApiNamespace}.IoC
-    - **interface:** I{ApiType}
-    - **implementation:** {ApiType}Impl
+    - **namespace:** Autodesk.AutoCAD.<ins>{ApiNamespace}</ins>.IoC
+    - **interface:** I<ins>{ApiType}</ins>
+    - **implementation:** <ins>{ApiType}</ins>Impl
     
-  So, for example, to get the inteface for the Editor, you should import **I**Editor and Editor**Impl** from the Autodesk.AutoCAD.**EditorInput**.IoC.
+  So, for example, to get the inteface for the **Editor**, you should import **I**Editor and Editor**Impl** from the Autodesk.AutoCAD.**EditorInput**.IoC.
 - All static members of the classes are converted to dynamic members for testing purposes.
 
 ## Currently Available APIs
