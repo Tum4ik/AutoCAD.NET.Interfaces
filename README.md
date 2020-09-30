@@ -8,7 +8,7 @@ if (you want to bring IoC pattern and testability into your AutoCAD plugin)
 ```
 
 ## Installation
-https://www.nuget.org/packages/AutoCAD.NET.Interfaces
+[![NuGet: AutoCAD.NET.Interfaces](https://img.shields.io/badge/NuGet-AutoCAD.NET.Interfaces-004880)](https://www.nuget.org/packages/AutoCAD.NET.Interfaces)
 
 ## Important Notes
 - All static members of the classes are converted to dynamic members for testing purposes.
