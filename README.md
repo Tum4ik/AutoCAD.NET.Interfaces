@@ -9,6 +9,7 @@ if (you want to bring IoC pattern and testability into your AutoCAD plugin)
 
 ## Requirements
 - .NET Framework 4.7 and higher
+- AutoCAD 2021 and higher
 
 ## Installation
 [![NuGet: AutoCAD.NET.Interfaces](https://img.shields.io/badge/NuGet-AutoCAD.NET.Interfaces-004880)](https://www.nuget.org/packages/AutoCAD.NET.Interfaces)
