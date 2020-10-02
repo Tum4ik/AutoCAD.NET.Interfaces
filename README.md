@@ -22,6 +22,7 @@ if (you want to bring IoC pattern and testability into your AutoCAD plugin)
     
   So, for example, to get the inteface and implementation for the `Editor`, you should import `IEditor` and `EditorImpl` from the `Autodesk.AutoCAD.EditorInput.IoC`.
 - All static members of the classes are converted to dynamic members for testing purposes.
+- The original code documentation is kept.
 
 ## Currently Available APIs
 | AutoCAD.NET                                    | AutoCAD.NET.Interfaces                                                                                          |
