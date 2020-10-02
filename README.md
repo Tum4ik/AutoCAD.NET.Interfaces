@@ -27,4 +27,4 @@ if (you want to bring IoC pattern and testability into your AutoCAD plugin)
 | AutoCAD.NET                                    | AutoCAD.NET.Interfaces                                                                                          |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Autodesk.AutoCAD.EditorInput.**Editor**        | Autodesk.AutoCAD.EditorInput.IoC.**IEditor** <br> Autodesk.AutoCAD.EditorInput.IoC.**EditorImpl**               | 
-| (Will be soon) Autodesk.AutoCAD.DatabaseServices.**Database** | Autodesk.AutoCAD.DatabaseServices.IoC.**IDatabase** <br> Autodesk.AutoCAD.DatabaseServices.IoC.**DatabaseImpl** |
+| Autodesk.AutoCAD.DatabaseServices.**Database** | Autodesk.AutoCAD.DatabaseServices.IoC.**IDatabase** <br> Autodesk.AutoCAD.DatabaseServices.IoC.**DatabaseImpl** |
