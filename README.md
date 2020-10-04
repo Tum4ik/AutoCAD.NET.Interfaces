@@ -30,3 +30,4 @@ if (you want to bring IoC pattern and testability into your AutoCAD plugin)
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Autodesk.AutoCAD.EditorInput.**Editor**        | Autodesk.AutoCAD.EditorInput.IoC.**IEditor** <br> Autodesk.AutoCAD.EditorInput.IoC.**EditorImpl**               | 
 | Autodesk.AutoCAD.DatabaseServices.**Database** | Autodesk.AutoCAD.DatabaseServices.IoC.**IDatabase** <br> Autodesk.AutoCAD.DatabaseServices.IoC.**DatabaseImpl** |
+| Autodesk.AutoCAD.ApplicationServices.**Document** | Autodesk.AutoCAD.ApplicationServices.IoC.**IDocument** <br> Autodesk.AutoCAD.ApplicationServices.IoC.**DocumentImpl** |
